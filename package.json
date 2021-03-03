@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-todos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gatsby-todos",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.32.8",
+    "gatsby-plugin-prettier-eslint": "^1.0.4",
+    "gatsby-plugin-styled-components": "^4.0.0",
+    "prettier": "^2.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
